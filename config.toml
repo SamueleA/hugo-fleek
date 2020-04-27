@@ -2,9 +2,9 @@ baseurl = "/"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
+relativeURLs = true
 
 [params]
-  relativeURLs = true
 
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
