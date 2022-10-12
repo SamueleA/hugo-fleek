@@ -1,0 +1,60 @@
+// Narrower container for Hello World sections (primarily Blank widget content).
+@media (min-width: 1200px) {
+  .home-section .container {
+    max-width: 880px;
+  }
+}
+@media (min-width: 992px){
+  .home-section .container {
+    max-width: 880px;
+  }
+}
+
+// More compact section spacing
+
+.home-section {
+  padding: 0;
+}
+.home-section:nth-of-type(1) {
+  padding-top: 1rem;
+}
+.home-section:nth-of-type(2) {
+  padding-top: 1rem;
+}
+
+// Smaller avatar
+
+.avatar {
+  width: 150px;
+  height: 150px;
+}
+
+// Larger Role text
+
+.portrait-title h2 {
+  font-size: 2.5rem;
+}
+
+// More compact social icons
+
+#profile .network-icon {
+  margin-top: 0.5rem;
+}
+
+// More compact cards
+
+.card {
+  margin-bottom: 0;
+}
+
+.card.course:last-of-type,
+.row.experience:last-of-type,
+.card-simple:last-of-type{
+  margin-bottom: 1.5rem;
+}
+
+// white text in About widget
+
+.dark .portrait-title h3 {
+  color: rgba(255, 255, 255, 1);
+}
